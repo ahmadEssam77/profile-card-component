@@ -1,6 +1,7 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* background-image: url(images/bg-pattern-bottom.svg);
     background-repeat: repeat;
     background-size: cover; */
@@ -19,6 +20,17 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.upper-bg-blue {
+    background-image: url('images/bg-pattern-card.svg');
+    position: absolute;
+    background-size: cover;
+    /* top: 50px; */
+    height: 150px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    
+}
+
 /* PP */
 .image-container {
     text-align: center;
@@ -26,12 +38,25 @@ body {
     top: 100px;
 }
 
+.image-container .london {
+    color:hsl(0, 0%, 59%);
+    margin-top: -3px;
+}
+
 .pp {
     border-radius: 50%;
+    border: 5px solid #fff;
 }
 
 .numbers {
     display: flex;
     justify-content: space-around;
     margin-top: 115px;
+}
+
+.numbers p {
+    margin-top: -13px;
+    font-size: 14px;
+    color: hsl(0, 0%, 59%);
+    text-align: center;
 }
