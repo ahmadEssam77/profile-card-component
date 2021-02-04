@@ -1,12 +1,18 @@
 /* Mobo and Desktop screens */
 
-@media only screen and (max-width: 281px) {
+@media (min-width: 200px) and (max-width: 270px) {
     .card {
-        max-width: 250px;
+        max-width: 215px;
     }
 }
 
-@media only screen and (max-width: 376px) {
+@media (min-width: 271px) and (max-width: 330px) {
+    .card {
+        max-width: 265px;
+    }
+}
+
+@media (min-width: 330px) and (max-width: 375px) {
     .card {
         max-width: 310px;
     }
