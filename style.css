@@ -6,6 +6,7 @@ body {
     background-image: url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 /* Card Container */
@@ -64,9 +65,37 @@ body {
     margin-top: 115px;
 }
 
+.numbers .digits {
+    margin-top: 13px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+
+}
+
 .numbers p {
     margin-top: -13px;
     font-size: 14px;
     color: hsl(0, 0%, 59%);
     text-align: center;
 }
+
+/* Mobo and Desktop screens */
+
+@media (max-width: 1440px) {
+    .card {
+        max-width: 100%;
+    }
+}
+
+/* @media (min-width: 271px) and (max-width: 330px) {
+    .card {
+        max-width: 265px;
+    }
+}
+
+@media (min-width: 330px) and (max-width: 375px) {
+    .card {
+        max-width: 310px;
+    }
+} */
