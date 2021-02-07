@@ -1,15 +1,26 @@
+/* Body Style (all) */
 body {
     margin: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: hsl(185, 75%, 39%);
-    background-image: url(images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #19a2ae;
     overflow: hidden;
 }
 
-/* Card Container */
+/* Style the background */
+.backg-top img {
+    position: absolute;
+    top: -470px;
+    left: -270px;
+}
+
+.backg-bottom img {
+    position: absolute;
+    top: 445px;
+    right: -130px;
+}
+
+/* Card Container (Wrapper)*/
 .card {
     width: 370px;
     height: 400px;
@@ -26,11 +37,9 @@ body {
     background-image: url('images/bg-pattern-card.svg');
     position: absolute;
     background-size: cover;
-    /* top: 50px; */
     height: 150px;
     width: 100%;
-    border-radius: 15px 15px 0 0;
-    
+    border-radius: 15px 15px 0 0;    
 }
 
 /* PP */
@@ -70,7 +79,6 @@ body {
     font-weight: 700;
     font-size: 20px;
     color: #000;
-
 }
 
 .numbers p {
@@ -87,15 +95,3 @@ body {
         max-width: 100%;
     }
 }
-
-/* @media (min-width: 271px) and (max-width: 330px) {
-    .card {
-        max-width: 265px;
-    }
-}
-
-@media (min-width: 330px) and (max-width: 375px) {
-    .card {
-        max-width: 310px;
-    }
-} */

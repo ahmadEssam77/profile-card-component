@@ -10,17 +10,24 @@
   <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
-  <div class="card">
-    <div class="upper-bg-blue">
-      
-    </div>
-    <div class="image-container">
+  <!-- For backgrounds (two circle images) -->
+  <div class="backg-top"> 
+    <img src="images/bg-pattern-top.svg" alt=""> <!-- circle one top -->
+  </div>
+
+  <div class="backg-bottom">
+    <img src="images/bg-pattern-bottom.svg" alt=""> <!-- circle two bottom -->
+  </div>
+
+  <div class="card"> <!-- Start Wrapper -->
+    <div class="upper-bg-blue"></div> <!-- Card head background -->
+    <div class="image-container"> <!-- Card Body -->
       <img src="images/image-victor.jpg" alt="PP" class="pp">
       <p class="name">Victor Crest <span class="age">26</span></p>
       <p class="london">London</p>
       <hr>
-    </div>
-    <div class="numbers">
+    </div> <!-- End Card Body -->
+    <div class="numbers"> <!-- Number section -->
       <div class="div-one">
         <p class="digits">80K</p>
         <p>Followers</p>
@@ -33,7 +40,7 @@
         <p class="digits">1.4K</p>
         <p>Photos</p>
       </div>      
-    </div>
-  </div>
+    </div>   <!-- End Number section -->
+  </div>  <!-- End Wrapper -->
 </body>
 </html>
