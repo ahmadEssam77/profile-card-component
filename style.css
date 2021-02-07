@@ -94,4 +94,8 @@ body {
     .card {
         max-width: 100%;
     }
+
+    .backg-top, .backg-bottom {
+        display: none;
+    }
 }
